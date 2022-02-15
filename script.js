@@ -1,7 +1,7 @@
 function compute()
 {
-    a = document.getElementById("Amount").value;
-    if (a==0){
+    a =parseInt( document.getElementById("Amount").value);
+    if (a){
         Rate=document.getElementById("Rate").value;
         years=parseInt(document.getElementById("years").value);
         result= a*Rate*years/100;
